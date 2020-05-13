@@ -10,12 +10,12 @@ window.onload = () => {
 
     function rotateA () {
         if(letterARotated == false){
-            letterA.style.color = `#1811E8`;
-            letterA.style.transform = `rotate(180deg)`;
-            letterARotated = true;
             unRotateB();
             unRotateC();
             unRotateD();
+            letterA.style.color = `#1811E8`;
+            letterA.style.transform = `rotate(180deg)`;
+            letterARotated = true;
         }
 
         else if(letterARotated == true){
@@ -28,12 +28,12 @@ window.onload = () => {
 
     function rotateB () {
         if(letterBRotated == false){
-            letterB.style.color = `#1811E8`;
-            letterB.style.transform = `rotate(180deg)`;
-            letterBRotated = true;
             unRotateA();
             unRotateC();
             unRotateD();
+            letterB.style.color = `#1811E8`;
+            letterB.style.transform = `rotate(180deg)`;
+            letterBRotated = true;
         }
 
         else if(letterBRotated == true){
@@ -46,12 +46,12 @@ window.onload = () => {
 
     function rotateC () {
         if(letterCRotated == false){
-            letterC.style.color = `#1811E8`;
-            letterC.style.transform = `rotate(180deg)`;
-            letterCRotated = true;
             unRotateA();
             unRotateB();
             unRotateD();
+            letterC.style.color = `#1811E8`;
+            letterC.style.transform = `rotate(180deg)`;
+            letterCRotated = true;
         }
 
         else if(letterCRotated == true){
@@ -64,12 +64,12 @@ window.onload = () => {
 
     function rotateD () {
         if(letterDRotated == false){
-            letterD.style.color = `#1811E8`;
-            letterD.style.transform = `rotate(180deg)`;
-            letterDRotated = true;
             unRotateA();
             unRotateB();
             unRotateC();
+            letterD.style.color = `#1811E8`;
+            letterD.style.transform = `rotate(180deg)`;
+            letterDRotated = true;
         }
 
         else if(letterDRotated == true){
