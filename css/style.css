@@ -7,6 +7,7 @@ table, td{
 td{
   font-size: 32px;
   text-align: center;
+  transition: linear 0.5s;
 }
 
 table{
