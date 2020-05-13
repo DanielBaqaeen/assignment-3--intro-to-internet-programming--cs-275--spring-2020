@@ -13,7 +13,7 @@ window.onload = () => {
             unRotateB();
             unRotateC();
             unRotateD();
-            letterA.style.color = `#1811E8`;
+            letterA.style.color = `#1811e8`;
             letterA.style.transform = `rotate(180deg)`;
             letterARotated = true;
         }
@@ -31,7 +31,7 @@ window.onload = () => {
             unRotateA();
             unRotateC();
             unRotateD();
-            letterB.style.color = `#1811E8`;
+            letterB.style.color = `#1811e8`;
             letterB.style.transform = `rotate(180deg)`;
             letterBRotated = true;
         }
@@ -49,7 +49,7 @@ window.onload = () => {
             unRotateA();
             unRotateB();
             unRotateD();
-            letterC.style.color = `#1811E8`;
+            letterC.style.color = `#1811e8`;
             letterC.style.transform = `rotate(180deg)`;
             letterCRotated = true;
         }
@@ -67,7 +67,7 @@ window.onload = () => {
             unRotateA();
             unRotateB();
             unRotateC();
-            letterD.style.color = `#1811E8`;
+            letterD.style.color = `#1811e8`;
             letterD.style.transform = `rotate(180deg)`;
             letterDRotated = true;
         }
@@ -105,7 +105,7 @@ window.onload = () => {
     }
 
 
-    letterA.addEventListener(`click`, rotateA );
+    letterA.addEventListener(`click`, rotateA);
     letterB.addEventListener(`click`, rotateB);
     letterC.addEventListener(`click`, rotateC);
     letterD.addEventListener(`click`, rotateD);
