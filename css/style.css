@@ -1,16 +1,17 @@
-table, td{
+table,
+td {
   margin: auto;
-  border: 2px solid #EB5656;
+  border: 2px solid #eb5656;
   border-collapse: collapse;
 }
 
-td{
+td {
   font-size: 32px;
   text-align: center;
-  transition: linear 0.5s;
+  transition: linear .5s;
 }
 
-table{
+table {
   height: 150px;
   width: 560px;
 }
